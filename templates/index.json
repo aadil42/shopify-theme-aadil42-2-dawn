@@ -166,13 +166,6 @@
     "featured_product_x8ezHf": {
       "type": "featured-product",
       "blocks": {
-        "text_UmFmwp": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title_hiBnFg": {
           "type": "title",
           "settings": {
@@ -207,7 +200,6 @@
         }
       },
       "block_order": [
-        "text_UmFmwp",
         "title_hiBnFg",
         "price_CFJddC",
         "variant_picker_hTri6K",
