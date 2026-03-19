@@ -117,6 +117,13 @@
       </div>
     </div>
   {%- endif -%}
+  
+
+  {%  if  product.metafields.custom.made_in %}
+    <p>haha: {{product.metafields.custom.made_in}}</p>
+  {% else %}
+    <p>made in was not found</p>
+  {%  endif %}
 
   {%- if show_pickup_availability -%}
     {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
